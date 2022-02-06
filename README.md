@@ -18,7 +18,7 @@ After setting up the Firebase function, set the function url in `App.js` -
 const SERVER = 'NODEJS_BACKEND_SERVER_URL'
 ```
 
-A little hack to secure the Firebase function URL from unauthorized access is to set the `TOKEN` variable in the `tweet_status()` function. Using JWT is the most secure way of doing this, but this method does not require much code modification :)
+A little hack to secure the Firebase function URL from unauthorized access is to set the [`TOKEN`](https://github.com/FirePing32/GH-twitter-client-backend#initial-setup) variable in the `tweet_status()` function. Using JWT is the most secure way of doing this, but this method does not require much code modification :)
 
 ## Build
 
